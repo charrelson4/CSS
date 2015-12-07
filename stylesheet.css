@@ -1,0 +1,118 @@
+/*CSS Stylesheet*/
+
+/** {border: 1px solid black;}*/
+
+body {
+   background-color:cornflowerblue;
+    height:100%;
+    position: relative;
+    animation: pulse 10s linear infinite alternate;
+}
+ 
+.container{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin:100px -150px;
+    
+}
+
+.square{
+    height: 94%;
+    width: 94%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin:-47% 0 0 -47%;
+}
+
+.black{
+    background: black;
+    animation: rotate 10s infinite linear;
+}
+
+.blue{
+    background:blue;
+    animation: rotate 10s infinite linear;
+}
+
+.red{
+    background: red;
+    animation: rotate 10s infinite linear;
+}
+
+.orange{
+    background: orange;
+    animation: rotate 10s infinite linear;
+}
+
+.darkblue{
+    background: darkblue;
+    animation: rotate 10s infinite linear;
+}
+
+.green{
+    background: green;
+    animation: rotate 10s infinite linear;
+}
+
+.yellow{
+    background: yellow;
+    animation: rotate 10s infinite linear;
+}
+
+.pink{
+    background: pink;
+    animation: rotate 10s infinite linear;
+}
+
+.blueviolet{
+    background: blueviolet;
+    animation: rotate 10s infinite linear;
+}
+
+.skyblue{
+    background: skyblue;
+    animation: rotate 10s infinite linear;
+}
+
+.maroon{
+    background: maroon;
+    animation: rotate 10s infinite linear;
+}
+
+@keyframes rotate{
+    0%{transform:rotate(0deg);}
+    100%{ transform: rotate(360deg);}
+}
+
+
+@keyframes pulse{
+    0%{
+        background: cornflowerblue;}
+    10%{
+        background:skyblue;}
+    20%{
+        background:aqua;}
+    30%{
+        background:cyan;}
+    40%{
+        background:lightgreen;}
+    50%{
+        background:green;}
+    60%{
+        background:darkgreen;}
+    70%{
+        background:forestgreen;}
+    80%{
+        background:greenyellow;}
+    90%{
+        background:yellow;}
+    100%{
+        background:lightyellow;}
+    
+}
+    
+}
